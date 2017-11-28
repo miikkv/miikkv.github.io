@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<h1 align="center"><font face="arial">Pride</h1>
+<meta charset="UTF-8">
+<title>Pride</title>
+<style>
+
+	#pp {
+	display: none;
+}
+	#pp2 {
+	display: none;
+}
+	#pp3 {
+	display: none;
+}
+
+h1 {color:magenta;}
+h1 {
+background-color:white;
+}
+
+
+body {
+background-color:pink;
+}
+div {
+    width: 90000px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+
+
+</style>
+</head>
+<body>
+
+	
+<img src="kuva1.jpg" height="150">
+	
+	
+	<img src="kuva2.jpg" height="150">
+	
+	
+	<p>Pride tai gay pride tarkoittaa maailmanlaajuista liikettä ja filosofiaa, jonka mukaan homoseksuaalit,
+	biseksuaalit ja trans-ihmiset voivat olla ylpeitä seksuaalisesta suuntautumisestaan ja sukupuoli-identiteetistään.
+	Pride puolustaa seksuaali- ja sukupuolivähemmistöjen yhtäläisten oikeuksien ja etujen puolesta tehtyä työtä.</p>
+	<table style="width:100%">
+  <tr>
+    <th>Liikkeellä on kolme pääperustetta:</th>
+	</tr>
+	<tr>
+    <td>• Ihmisten pitäisi olla ylpeitä seksuaalisesta suuntautumisestaan ja sukupuoli-identiteetistään</td>
+  </tr>
+  <tr>
+    <td>• Seksuaalinen monimuotoisuus on lahja</td>
+  </tr>
+  <tr>
+    <td>• Seksuaalinen suuntautuminen sekä sukupuoli-identiteetti ovat synnynnäisiä eikä niitä voi tarkoituksellisesti muuttaa.</td>
+  </tr>
+  </table>
+	<p>Seta.fi sivulle pääset napsauttamalla alla olevaa linkkiä</p><a href="https://www.seta.fi">www.seta.fi</a> 
+<h2>Haluatko osallistua pride liikkeeseen?</h2>
+	<button id="nappi">EI</button>
+<button id="nappi2">KYLLA</button>
+<img id="pp" img src="EI.jpg">
+<img id="pp2" img src="KYLLÄ.jpg">
+<h1 align="center">@ Tivi-17o</h1>
+<div></div>
+
+
+<script>
+$("#nappi").click(function(){
+$("#pp").fadeIn();
+});
+$("#nappi2").click(function(){
+$("#pp2").fadeIn();
+});
+$("#nappi3").click(function(){
+$("#pp3").fadeIn();
+});
+</script>
+</body>
